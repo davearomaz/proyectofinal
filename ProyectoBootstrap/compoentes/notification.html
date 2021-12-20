@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Notifications</title>
+
+<div class="text-center">
+    <h1 class="display-1">Notifications</h1>
+</div>
+
+<body>
+
+<div class="text-center">
+    <span>Existen diferentes opciones de notificaciones, en este caso vamos a ver dos ejemplos de ellas</span>
+</div>
+
+<div class="container my-3 p-3 border">
+    <h2>Badge</h2>
+    <p>Las Badges se escalan para coincidir con el tamaño del elemento principal inmediato mediante el tamaño de fuente relativo y unidades. A partir de la v5, los Badges ya no tienen estilos de enfoque o desplazamiento para los enlaces.</p>
+    <p>A continuación se encuentran ejemplos de Badges:</p>
+    <div class="d-flex justify-content-evenly my-4">
+        <button type="button" class="btn btn-primary">
+            Notifications <span class="badge bg-secondary">4</span>
+            </button>
+            <button type="button" class="btn btn-primary position-relative">
+                Inbox
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  99+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+    </div>
+
+    <h2>Spinners</h2>
+    <p>Indica el estado de carga de un componente o página con spinners Bootstrap, construido completamente con HTML, CSS y sin JavaScript.</p>
+    <p>A continuación se encuentran ejemplos de Spinners:</p>
+    <div class="d-flex justify-content-evenly my-4">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        
+        <div class="spinner-grow" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        
+    </div>
+    <a href="/index.html" class="btn btn-primary mt-4 text-end" >Go Back!</a>
+</div>
+
+
+</body>
+
+</html>

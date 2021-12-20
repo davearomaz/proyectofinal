@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Information</title>
+</head>
+
+<h1 class="display-1 text-center">Information</h1>
+<p class="text-center">Existen diferentes opciones de información, en este caso vamos a ver dos ejemplos de ellas</p>
+
+<body>
+    <div class="container mt-4 mb-4 p-3 border">
+        <h2>Breadcrumb</h2>
+        <p>Indica la ubicación de la página actual dentro de una jerarquía de navegación que agrega separadores automáticamente a través de CSS.</p>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+          </nav>
+          
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Library</li>
+            </ol>
+          </nav>
+          
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
+
+          <h2>Pagination</h2>
+          <p>Documentación y ejemplos para mostrar la paginación para indicar que existe una serie de contenido relacionado en varias páginas.</p>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+          <a href="/index.html" class="btn btn-primary m-4" >Go Back!</a>
+        </div>
+      </div>
+</body>
